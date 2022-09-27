@@ -5,10 +5,10 @@
 **This is a simple chat application made in Golang with [Websocket](http://github.com/gorilla/websocket)**
 
 *Chatting*
-![three chat pic](./images/chat-demo.png)
+​![chatting](https://user-images.githubusercontent.com/48167880/192554459-d3819700-30d9-4f44-b4cb-62ea833cd31d.png)
 
 *Three chats*
-![three chat pic](./images/chatting.png)
+![chat-demo](https://user-images.githubusercontent.com/48167880/192554506-1150683c-b3c5-4efa-9671-f37ce245ac37.png)
 
 ## How to run
 

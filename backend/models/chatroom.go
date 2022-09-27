@@ -44,11 +44,11 @@ func (cr *ChatRoom) HandleUserEvents() {
 			// The user's id will be the number of connection the server
 			// had so far
 			cr.Users[u.ID] = u
-			log.Printf("User %s has connected with id: %d", u.Name, u.ID)
+			log.Printf("User %s has just connected with id: %d", u.Name, u.ID)
 
 		case u := <-cr.ChatChannel.LeaveChannel: // User is leaving the chat
 			delete(cr.Users, u.ID)
-			log.Printf("User %s has connected with id: %d", u.Name, u.ID)
+			log.Printf("User %s has just disconnected", u.Name)
 
 		case m := <-cr.ChatChannel.MessageChannel: // User sent a message
 			// Broadcast the message to all users...

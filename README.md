@@ -1,4 +1,4 @@
-# Chat go
+# Go chat
 
 ## Images
 
